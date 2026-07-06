@@ -105,3 +105,12 @@ rewrites history.
 6. Pre-mortem (one-way doors) includes a self-inflicted cause and a thesis-wrong cause, each
    mitigated or tripwired? Flip test written?
 7. Journal entry has a scoreable outcome, a directional probability, and a review date?
+
+## Distilled rules (Kagami fork — DISTILL output, one rule per judgment)
+
+- DISTILL 2026-07-06 (maestro): A retry must differ from the original attempt — enrich it with
+  the evaluator's feedback, new context, or a different approach; never resend the same input
+  hoping for different output.
+- DISTILL 2026-07-06 (maestro): Accept prompt/model changes only after dimension-by-dimension
+  scoring on a golden set with a numeric band (≥5% gain accept · <5% neutral · ≥5% regression
+  reject) — and explicitly check whether the improved dimension broke a different one.

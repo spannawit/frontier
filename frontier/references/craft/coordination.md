@@ -107,3 +107,12 @@ fixed moment.
 6. Day-of kit assembled (contacts, timeline, spares)? Personal cue sheets issued? Offline
    copies exist?
 7. Budget: owners per line, contingency present, actuals reconciled after?
+
+## Distilled rules (Kagami fork — DISTILL output, one rule per judgment)
+
+- DISTILL 2026-07-06 (maestro): When one agent's tool count hits 8-12, split into sub-agents
+  instead of adding tools (1-3 excellent, 4-7 good, 8-12 degrading, 13+ unreliable).
+- DISTILL 2026-07-06 (maestro): Pipeline stages must need zero knowledge of how the prior stage
+  produced its output — schema-only contracts; anything else is a design defect.
+- DISTILL 2026-07-06 (maestro): Gate "add another agent to the chain" on the multiplicative
+  failure rate 1-(1-p)^n, not intuition.
