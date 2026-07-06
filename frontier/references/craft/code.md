@@ -96,3 +96,9 @@ What excellent engineering work IS, checkable.
 4. Diff re-read line by line; every line justified by the task.
 5. Every call site of a changed signature read and reconciled.
 6. Idiom check: would the file's original author recognize this as theirs?
+
+## Distilled rules (Kagami fork — DISTILL output, one rule per judgment)
+
+- DISTILL 2026-07-06: Never let a package-manager-owned directory double as a mutable rule
+  store. Fork the upstream repo and write rules as commits, so updates arrive as merge
+  conflicts to resolve instead of silent clobbers of accumulated judgment.
