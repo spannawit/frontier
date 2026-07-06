@@ -102,3 +102,11 @@ features that ship.
 4. No two rules in conflict? (The later one silently wins.)
 5. Eval run with per-case scores, and the holdout cases still passing after the last fix?
 6. Prefix stable and cache-verified in production?
+
+## Distilled rules (Kagami fork — DISTILL output, one rule per judgment)
+
+- DISTILL 2026-07-06 (maestro): Budget prompt context by fixed percentages before building it
+  (≈10-15% system, 10-20% examples, 20-40% retrieved, 10-20% user input, 20-30% RESERVED for
+  output — the reserve is non-negotiable).
+- DISTILL 2026-07-06 (maestro): Truncate context at semantic boundaries only — drop whole
+  paragraphs/turns/sections from the least-relevant end; never hard-cut at a token position.

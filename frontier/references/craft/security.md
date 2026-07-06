@@ -115,3 +115,8 @@ products.
 4. Webhook endpoints verified to reject unsigned, tampered, and replayed payloads.
 5. Dependency audit run; new dependencies justified in one line each.
 6. PII map updated if data shapes changed; deletion path still works.
+
+## Distilled rules (Kagami fork — DISTILL output, one rule per judgment)
+
+- DISTILL 2026-07-06 (maestro): In injection defenses, restate the critical constraint AFTER the
+  untrusted-input block, not only before — the model's last-read instruction must be the trusted one.

@@ -102,3 +102,5 @@ What excellent engineering work IS, checkable.
 - DISTILL 2026-07-06: Never let a package-manager-owned directory double as a mutable rule
   store. Fork the upstream repo and write rules as commits, so updates arrive as merge
   conflicts to resolve instead of silent clobbers of accumulated judgment.
+- DISTILL 2026-07-06 (maestro): Pick idempotency mechanism by operation type: reads none ·
+  creates idempotency keys · updates conditional version checks · deletes soft-delete by default.
