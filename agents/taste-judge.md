@@ -1,7 +1,7 @@
 ---
 name: taste-judge
 description: Final-gate taste judge running a 3-lens internal panel over what rubrics cannot capture. Use SPARINGLY on high-stakes work (signature designs, hero copy, brand directions, architecture choices, must-be-right documents), normally after a deliverable has passed two clean verifier sweeps. Also use to rank best-of-N candidates (Phase 1, before any sweeps). Give it the rubric (required), the evidence paths, and the candidate(s) if ranking. It never fixes anything. Spawn with a model override to the strongest tier your plan offers when the session model is weaker; otherwise it runs on the session model as designed.
-tools: Read, Glob, Grep, Bash
+tools: Read, Glob, Grep
 model: inherit
 ---
 
