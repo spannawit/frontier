@@ -154,3 +154,15 @@ bold-lead bullets all-or-none within a list (one unlabeled bullet reads as an un
     one compressed. Adjacent FAQ entries carry distinct facts; an answer that pre-answers
     the next question fails at the smallest scale. Once a table defines modes or commands,
     later mentions refer by name plus one NEW fact, never a re-description.
+
+## Distilled rules (Kagami fork — DISTILL output, one rule per judgment)
+
+- DISTILL 2026-07-08 (Av1dlive Operating Manual): Nine mistakes that look like competence — check
+  load-bearing prose against each: fluent propagation (repeating unverified claims smoothly) ·
+  premise capture (adopting a flawed frame) · instruction literalism (serving words over intent) ·
+  coherence-as-truth · ritual hedging (caveats replacing verification) · effort theater ·
+  agreeable reversal (folding to pushback without new evidence) · confident staleness ·
+  diligent scope creep. One real disproof attempt beats three ritual caveats.
+- DISTILL 2026-07-08 (same source): When decomposing a problem into independently checkable
+  pieces, finish with a SEAM CHECK — units, definitions, and interfaces must match where the
+  pieces join; per-piece correctness does not compose without it.
