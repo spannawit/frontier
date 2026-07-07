@@ -113,3 +113,8 @@ features that ship.
 - DISTILL 2026-07-07 (internal-alpha): Hand the agent the actual artifact — working code, an HTML
   mockup, a grounded research doc — as the spec, not a prose description of it. A reference is a
   map that already matches the territory; prose is a map you drew from memory.
+- DISTILL 2026-07-08 (Thariq/AIE talk): Re-derive prompt size per model generation — weak executors
+  get rules (MUST/NEVER lists, numbered steps); frontier models get context, not constraints
+  (examples and "do not" lists actively constrain a model more imaginative than the examples).
+  The same doc cannot serve both tiers; write two surfaces or pick your reader. (Precedent:
+  Anthropic cut 80% of Claude Code's system prompt for the Fable generation.)
