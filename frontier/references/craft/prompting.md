@@ -110,3 +110,6 @@ features that ship.
   output — the reserve is non-negotiable).
 - DISTILL 2026-07-06 (maestro): Truncate context at semantic boundaries only — drop whole
   paragraphs/turns/sections from the least-relevant end; never hard-cut at a token position.
+- DISTILL 2026-07-07 (internal-alpha): Hand the agent the actual artifact — working code, an HTML
+  mockup, a grounded research doc — as the spec, not a prose description of it. A reference is a
+  map that already matches the territory; prose is a map you drew from memory.
